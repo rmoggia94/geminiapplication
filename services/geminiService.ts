@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Chat, GenerateContentResponse, Content } from "@google/genai";
 
-const GEMINI_MODEL_NAME = "gemini-2.5-flash-preview-04-17"; // Use the specified model
+const GEMINI_MODEL_NAME = "gemini-1.5-flash-latest"; // Use the latest stable flash model
 
 let ai: GoogleGenAI | null = null;
 
